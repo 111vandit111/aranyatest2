@@ -14,7 +14,7 @@ const AboutUs = () => {
             className="upper"
           >
             <img
-              src="imgs/aboutUs2.jpg"
+              src="imgs/food.jpg"
               alt="img1"
             />
           </div>
@@ -27,7 +27,7 @@ Welcome to Aranya, your ultimate destination for a transformative staycation, wh
           </p>
           <p>
           <Link to={"./about"}> <button className="btn green"> 
-              read more
+              Read more
            
             </button> </Link>
           </p>
@@ -50,7 +50,7 @@ Aranya's Five Element Villas offer an unparalleled experience, with each villa t
           </p>
           <p>
           <Link to={"./stay"}> <button className="btn green"> 
-              read more
+              Read more
         
             </button>    </Link>
           </p>

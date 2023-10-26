@@ -30,7 +30,8 @@ const NavbarPages = () => {
         <li className="p__opensans"><Link to="../aranyatest2/#Destination">Destination</Link></li>
         <li className="p__opensans"><Link to={"../aranyatest2/about"}>About</Link></li>
         <li className="p__opensans"><Link to="../aranyatest2/stay">Stay</Link></li>
-        <li className="p__opensans"><Link to="../aranyatest2/#wellness">Wellness</Link></li>
+        <li className="p__opensans"><Link to="../aranyatest2/experiences">Experiences</Link></li>
+        <li className="p__opensans"><Link to="../aranyatest2/dining">Dining</Link></li>
         <li className="p__opensans"><Link to="../aranyatest2/#contact">Contact</Link></li>
       </ul>
     
@@ -43,7 +44,8 @@ const NavbarPages = () => {
               <li><Link to="../aranyatest2/#Destination" onClick={() => setToggleMenu(false)}>Home</Link></li>
               <li><Link to="../aranyatest2/about" onClick={() => setToggleMenu(false)}>About</Link></li>
               <li><Link to="../aranyatest2/stay" onClick={() => setToggleMenu(false)}>Stay</Link></li>
-              <li><Link to="../aranyatest2/#wellness" onClick={() => setToggleMenu(false)}>Wellness</Link></li>
+              <li><Link to="../aranyatest2/experiences" onClick={() => setToggleMenu(false)}>Experiences</Link></li>
+              <li><Link to="../aranyatest2/dining" onClick={() => setToggleMenu(false)}>Dining</Link></li>
               <li><Link to="../aranyatest2/#contact" onClick={() => setToggleMenu(false)}>Contact</Link></li>
             </ul>
           </div>

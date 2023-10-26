@@ -13,9 +13,6 @@ const Home = () => {
   return (
     <div>
         <Navbar />
-
-        {// add destination
-        }
         <Hero />
         <DetailBox />
         <AboutUs />

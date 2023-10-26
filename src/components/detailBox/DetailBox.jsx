@@ -2,6 +2,7 @@ import React from "react";
 import "./DetailBox.css";
 import { AiOutlinePhone ,AiFillMail} from "react-icons/ai";
 import {TbMapSearch} from "react-icons/tb"
+import  menu from '/leaflet.pdf'
 
 const DetailBox = () => {
   return (
@@ -16,7 +17,15 @@ const DetailBox = () => {
           With its grand palaces, majestic forts, and intricate architecture, Jaipur offers a glimpse into the bygone era of Rajput valor and chivalry. Discover the magnificent Amer Fort, perched on a hilltop, offering breathtaking panoramic views of the Aravalli Hills. Marvel at the stunning Hawa Mahal, the Palace of Winds, adorned with intricate latticework.
 
 </p><p>
-Aranya Hotel/resort in Rajasthan is 45 minutes from Jaipur and a 60- minute drive from Jaipur International Airport. </p></div>
+Aranya Hotel/resort in Rajasthan is 45 minutes from Jaipur ,a 60- minute drive from Jaipur International Airport &
+4 hours 30 Minutes Drive from Delhi. 
+
+<br />
+<br />
+<a href={menu} target="_blank" className="btn green smallText" download="Aranya Leaflet">
+     Leaflet
+            </a>
+</p></div>
 
 
           <div className="BIcons">

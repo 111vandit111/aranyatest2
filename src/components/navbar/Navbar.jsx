@@ -30,7 +30,8 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#Destination">Destination</a></li>
         <li className="p__opensans"><Link to={"about"}>About</Link></li>
         <li className="p__opensans"><Link to="stay">Stay</Link></li>
-        <li className="p__opensans"><a href="#wellness">Wellness</a></li>
+        <li className="p__opensans"><Link to="experiences">Experiences</Link></li>
+        <li className="p__opensans"><Link to="dining">Dining</Link></li>
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
     
@@ -43,7 +44,8 @@ const Navbar = () => {
               <li><a href="#Destination" onClick={() => setToggleMenu(false)}>Destination</a></li>
               <li><Link to="about" onClick={() => setToggleMenu(false)}>About</Link></li>
               <li><Link to="stay" onClick={() => setToggleMenu(false)}>Stay</Link></li>
-              <li><a href="#wellness" onClick={() => setToggleMenu(false)}>Wellness</a></li>
+              <li><Link to="experiences" onClick={() => setToggleMenu(false)}>Experiences</Link></li>
+              <li><Link to="dining" onClick={() => setToggleMenu(false)}>Dining</Link></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
             </ul>
           </div>

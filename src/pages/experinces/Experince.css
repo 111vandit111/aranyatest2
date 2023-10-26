@@ -1,0 +1,20 @@
+.page-Container .app__navbar {
+    background-color: var(--color-black);
+}
+
+
+.page-Container .Text{
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.page-Container .app__navbar.active{
+    background-color: var(--color-body);
+}
+
+
+.activities{
+    width: 100%;
+    padding-top: 30px;
+}

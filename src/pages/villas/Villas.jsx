@@ -38,6 +38,17 @@ const Villas = () => {
   <p className="villaSubText">
    Aranya's Five Element Villas offer an unparalleled experience, with each villa thoughtfully named after the five elements of life, ensuring you the most unforgettable and qualitative days of your life. Discover a haven of opulence and rejuvenation, where nature's embrace harmonizes with luxurious amenities.
   </p>
+
+  <div className="fac">
+  <div className="facH">
+  In Villa Facilities
+
+
+  </div>
+  <p className="villaSubText">
+  LED TV, WIFI connections, safety deposit box, tea making facilities, outdoor dining, cabana. Bathroom equipped with indoor and outdoor rain shower, thick towels, bedsheet and duvet. Separated make up mirror, eco-friendly amenities, mosquitoes repellent. Villas opening to Baori (step pool). In-room signature therapies and mud bath.</p>
+</div>
+
 </div>
 
 
